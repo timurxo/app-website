@@ -1,0 +1,166 @@
+body {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+  font-size: 20px;
+}
+
+/* all container fluids */
+.container-fluid {
+  padding: 15% 14% 15%;
+}
+
+/* only container fluid at "title" section */
+#title .container-fluid {
+    padding: 3% 14% 3%;
+}
+
+/* ======================== TITLE ============================ */
+#title {
+  background-color: #b6eb7a;
+}
+
+.app-image {
+  width: 50%;
+}
+
+.cat-img {
+    transform: rotate(20deg);
+    /* position: relative; */
+}
+
+.navbar {
+  padding-bottom: 6%;
+}
+
+.top-text {
+  padding-top: 45%;
+  padding-bottom: 5%;
+  /* width: 80%; */
+}
+
+.nav-item {
+  /* padding-left: 5%;
+  padding-right: 5%; */
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.navbar-brand {
+  font-family: 'Yellowtail', cursive;
+  font-size: 300%;
+}
+
+/* ======================== FEATURES ============================ */
+
+.top-icons {
+  font-size: 70px;
+  padding-bottom: 2%;
+}
+
+
+/* ======================== FEEDBACK ============================ */
+#feedback {
+  background-color: #b6eb7a;
+  color: #fff;
+}
+
+.feedback-carousel {
+
+}
+
+.carousel-inner {
+  background-color: #b6eb7a;
+}
+
+.feedback-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+    padding: 12% 12%;
+    text-align: center;
+}
+
+
+
+/* ======================== PRICING ============================ */
+#pricing {
+  /* background-color: #ffeadb; */
+
+}
+
+#pricing .container-fluid {
+    padding: 3% 14% 10%;
+}
+
+.pricing-title {
+    padding-top: 3%;
+    margin-bottom: 2%;
+}
+
+/* ======================== CTA ============================ */
+#cta {
+    background-color: #b6eb7a;
+    padding: 7% 7%;
+}
+
+.pay-us-text {
+  margin-bottom: 3%;
+}
+
+.button-buy {
+  margin-top: 20%;
+  width: 100%
+}
+/* ======================== FOOTER ============================ */
+#footer {
+    /* background-color: #ffeadb; */
+}
+
+.bottom-icons {
+  font-size: 25px;
+  padding-top: 4%
+}
+
+.copyright {
+  padding: 4% 4%;
+}
+
+
+
+
+@media (max-width: 1000px) {
+
+  .cat-img {
+    position: static;
+    /* make image straight */
+    transform: rotate(0);
+    margin-top: 5%;
+  }
+
+  #title .container-fluid {
+      padding: 3% 14% 10%;
+  }
+
+  .card {
+    margin-left: 10%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
