@@ -150,6 +150,14 @@ p {
   .card {
     margin-left: 10%;
   }
+  
+  .top-text {
+    padding-top: 10%;
+  }
+
+  .top-icons {
+    padding-top: 10%;
+  }
 }
 
 
